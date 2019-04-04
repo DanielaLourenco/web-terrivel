@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="estilos.css" type="text/css">
+    <title>Terrivel</title>
+  </head>
+  <body>   
+	<div>
+		<h1>Formulário Terrível</h1>
+		<form action="http://terrivel.herokuapp.com/monster" method="GET">		
+		  <section id="nome">
+			<label>Nome </label>
+			<input type="text" name="nome" value="" placeholder="Digite um nome">
+		  </section>
+		  <section id="numPedras">
+			<label>N° de Pedras </label>
+			<input type="number" name="numPedras" value="1" min="0">        
+		  </section>
+		  <section id="tamPedras">
+			<label>Tamanho </label>
+			<input type="number" name="tamPedras" value="3" min="1"  max="7">
+		  </section>
+		  <section id="cor1">
+			<label>Escolha 1ª cor para o céu </label>
+			<br />
+			<input type="color" name="corCeu1" value="#01B9FF">			
+		  </section>
+		  <section id="cor2">
+			<label>Escolha 2ª cor para o céu </label>
+			<br />
+			<input type="color" name="corCeu2" value="#B2EAFF">
+		  </section>		  
+		  <section id="tipo-pedras">
+			<label>Selecione o tipo de pedra </label>
+			<select name="tipo_pedras">
+				<option value="ametista">Ametista</option>
+				<option value="espinela">Espinela</option>
+				<option value="marroada">Marroada</option>			  
+				<option value="topazio">Topázio</option>			  
+			</select>			
+		  </section>
+		  <section id="tipo-pedras">
+			<label>Pedras sortidas </label>
+			<select name="tipo_pedras_sortidas">
+			  <option value="não">Não</option>
+			  <option value="sim">Sim</option>
+			</select>
+		  </section>
+		  <button>GET</button>
+		</form>
+
+		
+		<form action="http://terrivel.herokuapp.com/monster" method="POST">
+		  <section id="nome">
+			<label>Nome </label>
+			<input type="text" name="nome" value="" placeholder="Digite um nome">
+		  </section>
+		  <section id="numPedras">
+			<label>N° de Pedras </label>
+			<input type="number" name="numPedras" value="1" min="0">        
+		  </section>
+		  <section id="tamPedras">
+			<label>Tamanho </label>
+			<input type="number" name="tamPedras" value="3" min="1"  max="7">
+		  </section>
+		  <section id="cor1">
+			<label>Escolha 1ª cor para o céu </label>
+			<br />
+			<input type="color" name="corCeu1" value="#01B9FF">			
+		  </section>
+		  <section id="cor2">
+			<label>Escolha 2ª cor para o céu </label>
+			<br />
+			<input type="color" name="corCeu2" value="#B2EAFF">
+		  </section>		  
+		  <section id="tipo-pedras">
+			<label>Selecione o tipo de pedra </label>
+			<select name="tipo_pedras">
+				<option value="ametista">Ametista</option>
+				<option value="espinela">Espinela</option>
+				<option value="marroada">Marroada</option>			  
+				<option value="topazio">Topázio</option>			  
+			</select>			
+		  </section>
+		  <section id="tipo-pedras">
+			<label>Pedras sortidas </label>
+			<select name="tipo_pedras_sortidas">
+			  <option value="não">Não</option>
+			  <option value="sim">Sim</option>
+			</select>
+		  </section>
+		  <button>POST</button>
+		</form>
+	</div>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+input, select {
+  width: 100%;
+  padding: 8px 8px;
+  margin: 8px 0;
+  display: table;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+ 
+}
+
+button {
+   width: 100%;
+  padding: 8px 8px;
+  margin: 8px 0;
+  display: table;
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+  color = #45a049; 
+  
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+
